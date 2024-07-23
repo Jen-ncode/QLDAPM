@@ -6,6 +6,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020; /* Giá trị z-index cao để đảm bảo nó nằm trên các phần tử khác */
-    background-color: #f8f9fa; /* Màu nền của thanh navbar */
-}
+    z-index: 1020; 
+    background-color: #f8f9fa; 
+};
+

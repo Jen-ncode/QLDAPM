@@ -4,6 +4,7 @@ import { Form, Button, Container, Row, Col, Alert, Spinner, Card } from 'react-b
 import { MyDispatchContext, MyUserContext } from "../../configs/MyContext";
 import APIs, { endpoints, authAPI } from "../../configs/APIs";
 import cookie from "react-cookies";
+import Footer from '../Commons/Footer';
 import './DangNhap.css';
 
 const DangNhap = () => {
@@ -134,7 +135,8 @@ const DangNhap = () => {
                         </Form>
                     </div>
                 </div>
-            </div>
+                
+            </div><Footer/>
         </section>
     );
 };

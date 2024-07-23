@@ -254,8 +254,7 @@ const UserInfo = () => {
                         )}
                     </Form>
                 </Card.Body>
-            </Card>
-            <Button 
+                <Button 
                 variant="contained" 
                 className="my-3"
                 onClick={changinfo}
@@ -263,7 +262,10 @@ const UserInfo = () => {
             >
                 Chỉnh sửa thông tin
             </Button>
+            </Card>
+            
         </div>
+        
     );
 };
 

@@ -1,11 +1,10 @@
-// Footer.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Styles.css';
+import './Styles1.css';
 
 const Footer = () => {
     return (
-        <footer className="footer bg-dark text-light">
+        <footer className="footer1">
             <Container>
                 <Row>
                     <Col md={4}>
@@ -19,9 +18,9 @@ const Footer = () => {
                     </Col>
                     <Col md={4}>
                         <h5>Theo Dõi Chúng Tôi</h5>
-                        <p><a href="https://www.facebook.com" className="text-light">Facebook</a></p>
-                        <p><a href="https://www.twitter.com" className="text-light">Twitter</a></p>
-                        <p><a href="https://www.linkedin.com" className="text-light">LinkedIn</a></p>
+                        <p><a href="https://www.facebook.com" className="footer-link">Facebook</a></p>
+                        <p><a href="https://www.twitter.com" className="footer-link">Twitter</a></p>
+                        <p><a href="https://www.linkedin.com" className="footer-link">LinkedIn</a></p>
                     </Col>
                 </Row>
                 <Row>
